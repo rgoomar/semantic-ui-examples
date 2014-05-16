@@ -6,3 +6,4 @@ You can view them here: [View Examples](http://semanticui.rishigoomar.com)
 
 Current Examples:
 * Fixed Top Navigation Bar
+* Static Top Navigation Bar
