@@ -7,19 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properities -->
-  <title>Navbar Static Top Example - Semantic</title>
+  <title>Navbar Login Dropdown Example - Semantic</title>
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="css/semantic.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.js"></script>
   <script src="javascript/semantic.js"></script>
 
 </head>
 <body>
-<header class="ui inverted menu">
+<header class="ui inverted menu fixed top">
     <a class="item">
       <i class="home icon"></i> Home
     </a>
@@ -39,6 +39,28 @@
         <a class="ui green button" href="https://github.com/rgoomar/semantic-ui-examples">
           <i class="github icon"></i>GitHub
         </a>
+      </div>
+      <div class="ui dropdown item">
+        <i class="user icon"></i><i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item borderless">
+            <div class="icon input">
+              <i class="pencil icon"></i>
+              <input type="text" placeholder="Username">
+            </div>
+            <div class="icon input borderless">
+              <i class="key icon"></i>
+              <input type="password" placeholder="Password">
+            </div>
+          </div>
+          <div class="item" style="text-align: center;">
+            <div class="ui tiny buttons">
+              <a class="ui green button" href="#">Sign Up</a>
+              <div class="or"></div>
+              <a class="ui green button" href="#">Login</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 </header>
@@ -75,4 +97,7 @@
   </h4>
 </footer>
 </body>
+  <script type="text/javascript">
+    $('.ui.dropdown').dropdown({action: 'nothing'});
+  </script>
 </html>
