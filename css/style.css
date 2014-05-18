@@ -3,3 +3,8 @@
 body {
 	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+
+/* Taking away the underlines */
+a {
+	text-decoration: none;
+}

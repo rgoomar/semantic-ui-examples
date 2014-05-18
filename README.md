@@ -8,3 +8,4 @@ Current Examples:
 * Fixed Top Navigation Bar
 * Static Top Navigation Bar
 * Navigation Dropdown Login
+* Navigation Login Inline
