@@ -8,3 +8,16 @@ body {
 a {
 	text-decoration: none;
 }
+
+.menu .category.popup {
+	min-width: 400px;
+  	max-width: 9999px;
+}
+
+.ui.shape.square .side {
+	text-align: center;
+	font-size: 46px;
+	line-height: 80px;
+	width: 100px;
+	height: 100px;
+}
